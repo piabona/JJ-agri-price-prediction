@@ -8,7 +8,7 @@
 - **Data Selection** : 상품별 모델링 (품목-지역-법인 의 조합)
 - **Feature Engineering** : 주로 시간(요일, 월) 파생변수 및 기간별 price와 supply의 mean/std/max 등을 추가
 - **Model** : Autogluon Timeseries Predictor
-- **Refinement** : Prediction 분위수 (0.1~1.0)를 개별 활용하여 (0.4~0.6) 최종 예측 
+- **Refinement** : Prediction 범위 내의 분위 수들을 개별 활용하여 (0.4-0.6) 최종 예측 
 
 ## Environment
 - OS: Ubuntu 18.04.4 LTS (GNU/Linux 4.15.0-162-generic x86_64)
